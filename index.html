@@ -1,0 +1,44 @@
+<!-- The script tag below assumes:
+    
+    [1] that you have downloaded the JQuery library into your work area. 
+    
+    [2] that the JQuery file and script.js is located on the same directory where the html file is.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script charset="utf-8" src="jquery-1.11.0.js"></script>
+  <script charset="utf-8" src="script.js"></script>
+
+  <!-- 
+      I'm adding minimal style here with a style tag - you can move this out to a separate index.css file if you prefer to get more in-depth with it 
+  -->
+  <style type="text/css" media="screen">
+    #status {
+      color: #CACACA;
+      font-weight: normal;
+    }
+    * {
+      font-family: Helvetica, Arial, serif;
+    }
+    img {
+      display: block;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      height: 300px;
+    }
+    body {
+      margin: 0 auto;
+      width: 80%;
+    }
+  </style>
+</head>
+
+<body>
+  <h4 id="status">The Status</h4>
+  <img id="a"/>
+  <input type=text id="answer">
+  <button id="clickme">Submit</button>
+</body>
+</html>
