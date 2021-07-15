@@ -1,1 +1,3 @@
-// Your Code Here
+$(document).ready(function(){
+    $("#status").val("hello there");
+  });
